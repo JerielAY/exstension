@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Extension",
+    "description": "our extension",
+    "version": "1",
+    "author": "MMJ",
+
+    "browser_action" : {
+      //"default_icon": "--",
+      "default_title": "Have a good day"},
+    
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    },
+
+    "premissions" : ["activeTab"]
+}
+  
