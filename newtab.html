@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="main.css" />
-    <script src="extension.js"></script>
-    <title>Test</title>
-  </head>
 
-  <body>
-    <!-- <h1>Pusheen Xtenstion</h1> -->
-    <h1>
-      <script>
-        document.write(Date());
-      </script>
-    </h1>
+<head>
+  <link rel="stylesheet" href="main.css" />
+  <script src="extension.js"></script>
+  <title>Test</title>
+</head>
 
-    <!-- <div class="days"> -->
-      <!-- <div class="day">
-        <p class="monday">monday</p>
-      </div>
-      <div class="day">
-        <p class="tuesday">tuesday</p>
-      </div>
-      <div class="day">
-        <p class="wednesday">wednesday</p>
-      </div>
-      <div class="day">
-        <p class="thursday">thursday</p>
-      </div>
-      <div class="day">
-        <p class="friday">friday</p>
-      </div>
-      <div class="day">
-        <p class="saturday">saturday</p>
-      </div>
-      <div class="day">
-        <p class="sunday">sunday</p>
-      </div>
-    </div> -->
+<body>
+  <h1>
+    <script>
+      document.write(Date());
+    </script>
+  </h1>
 
-    <div class="clock">
-      <div class="numbers">
-        <p class="hours"></p>
+  <div class="clock">
+    <div class="numbers">
+      <p class="hours"></p>
+    </div>
+    <div class="colon">
+      <p>:</p>
+    </div>
+    <div class="numbers">
+      <p class="minutes"></p>
+    </div>
+    <div class="colon">
+      <p>:</p>
+    </div>
+    <div class="numbers">
+      <p class="seconds"></p>
+    </div>
+    <div class="am-pm">
+      <div>
+        <p class="am">am</p>
       </div>
-      <div class="colon">
-        <p>:</p>
-      </div>
-      <div class="numbers">
-        <p class="minutes"></p>
-      </div>
-      <div class="colon">
-        <p>:</p>
-      </div>
-      <div class="numbers">
-        <p class="seconds"></p>
-      </div>
-      <div class="am-pm">
-        <div>
-          <p class="am">am</p>
-        </div>
-        <div>
-          <p class="pm">pm</p>
-        </div>
+      <div>
+        <p class="pm">pm</p>
       </div>
     </div>
-    <script src="javascript/extension.js"></script>
-  </body>
+  </div>
+
+  <div class="googleCalendar">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?title=Calendar&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=8d3fc8l9g04n7r9im45fsn08ak%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York"
+      style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <script src="javascript/extension.js"></script>
+</body>
+
 </html>
