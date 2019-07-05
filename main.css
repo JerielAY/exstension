@@ -1,6 +1,66 @@
-body{
-background-image: var(--image-name);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover
+body {
+  background-image: var(--image-name);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
 }
+
+.font-face {
+  font-family: "digital-7";
+  src: url("../fonts/digital-7.ttf");
+}
+
+.body {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "digital-7", sans-serif;
+}
+
+div.days {
+    margin: 0px;
+    color: #131212;
+  }
+  
+  div.days .day p {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+  }
+
+  div.days .day {
+	display: inline-block;
+}
+  
+  div.clock div {
+    display: inline-block;
+
+  }
+  
+  div.clock div p {
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  
+  .am-pm {
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    width: 10px;
+  }
+  
+  div.am-pm div p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .am,
+  .pm {
+    color: #131212;
+  }
+  
+  .light-on {
+    color: #d3d3d3;
+  }
+  
