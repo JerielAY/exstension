@@ -13,6 +13,6 @@
       "newtab": "newtab.html"
     },
 
-    "premissions" : ["activeTab"]
+    "permissions" : ["activeTab"]
 }
   
