@@ -6,6 +6,19 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+.googleCalendar{
+    float: right;
+    
+  }
+
+  .googleCalendar iframe{
+      width: 200px;
+      height: 190px;
+      position: absolute; 
+      bottom: 10px;
+      right: 10px;
+    }
+
 .font-face {
   font-family: "digital-7";
   src: url("../fonts/digital-7.ttf");
